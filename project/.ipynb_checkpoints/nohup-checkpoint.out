@@ -1,0 +1,30 @@
+Traceback (most recent call last):
+  File "/jumbo/jinlab/XD/face_expression/project/train_final.py", line 1, in <module>
+    from dataset_utils.dataset_final import Dataset
+  File "/jumbo/jinlab/XD/face_expression/project/dataset_utils/dataset_final.py", line 2, in <module>
+    from torch.utils import data as data_utils
+ModuleNotFoundError: No module named 'torch'
+wandb: Currently logged in as: 1303868777 (dang-ai). Use `wandb login --relogin` to force relogin
+wandb: Appending key for api.wandb.ai to your netrc file: /dartfs-hpc/rc/home/q/f006fkq/.netrc
+wandb: Currently logged in as: 1303868777. Use `wandb login --relogin` to force relogin
+wandb: wandb version 0.15.12 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.9
+wandb: Run data is saved locally in /jumbo/jinlab/XD/face_expression/project/wandb/run-20231004_145756-uax7gmjg
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Per
+wandb:  View project at https://wandb.ai/1303868777/CrossRunner
+wandb:  View run at https://wandb.ai/1303868777/CrossRunner/runs/uax7gmjg
+Load checkpoint from: ./ckpts/syncnet.pth
+Start Training!
+Init Dataset...
+Init DataLoader...
+total trainable params 37289219
+total discriminator trainable params 14113793
+Load checkpoint from: ./ckpts/ckpt0929/mode_ED_checkpoint_step000000101.pth
+Load checkpoint from: ./ckpts/discriminator_pretrained.pth
+Load checkpoint from: ./ckpts/ckpt0929/mode_disc_checkpoint_step000000101.pth
+Load optimizer state from ./ckpts/ckpt0929/mode_disc_checkpoint_step000000101.pth
+Training...
+Starting Epoch: 0
+  0%|          | 0/101 [00:00<?, ?it/s]
